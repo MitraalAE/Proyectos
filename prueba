@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Andrés Muñoz Martínez">
+    <meta name="description" content="Ejemplo de HTML5">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <title>Práctica</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Variación de una función</h1>
+    <hr width="100%" size="2">
+
+    <p>
+        Dada una función <var>f(x)</var>, se define <strong>variación de la función</strong> entre dos puntos de su dominio 
+        <var>x1</var> y <var>x2</var>, siendo <var>x1 &lt; x2</var>, 
+        a la diferencia <var>f(x<sub>2</sub>) - f(x<sub>1</sub>)</var>. Cuando esta diferencia es positiva, 
+        la función es <strong>creciente</strong>; si es negativa, la función es <strong>decreciente</strong>.
+    </p>
+
+    <p>
+        Relacionada con este concepto, se llama <s>variación instantánea</s> 
+        <strong>variación media</strong> de una función <var>f(x)</var> en un intervalo 
+        [<var>a</var>, <var>b</var>] al cociente siguiente:
+    </p>
+
+    <pre><code><strong>[f(b) - f(a)] / (b - a)</strong></code></pre>
+
+	<p>
+        El valor de este cociente coincide con la <strong>pendiente</strong> de la <strong>recta</strong> que pasa por los puntos de coordenadas <s>(<var>a</var>, <var>f(a)</var>) y (<var>b</var>, <var>f(b)</var>) 
+		</s> (<var>a</var>, <var>f(a)</var>) y (<var>b</var>, <var>f(b)</var>).  
+     </p>
+	
+	<p>
+		Cuando los dos puntos del intervalo [<var>a</var>, <var>b</var>] están lo suficientemente próximos, 
+        el cociente anterior indica la <strong>variación instantánea</strong>.  
+        En tal caso, el valor de <var>b</var> podría expresarse como 
+        <var>b = a + h</var>, siendo <var>h</var> un valor infinitamente pequeño.
+    </p>
+
+    <hr width="75%" size="2">
+
+    <p style="text-align: center;">
+        Derechos Reservados © Andrés Muñoz Martínez 2025-26
+    </p>
+</body>
+</html>
+
